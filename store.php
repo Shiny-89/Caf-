@@ -4,7 +4,7 @@ if(isset($_SESSION["id"])){//checking the existence of a session otherwise push 
 ?>
 
 
-//nav menu
+<!--nav menu -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -30,10 +30,10 @@ if(isset($_SESSION["id"])){//checking the existence of a session otherwise push 
     </ul>
   </div>
 </nav>
-// nav menu end
+<!--nav menu end-->
 
 
-//main body container
+<!-- main body container -->
 <div class="container" id="container">
 	<div class="row">
 		<div class="col-md-12 store-manage" id="store_manage">
@@ -49,7 +49,7 @@ if(isset($_SESSION["id"])){//checking the existence of a session otherwise push 
 		</div>
 	</div>
 </div>
-// main container end
+<!-- main container end -->
 
 
 
