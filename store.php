@@ -40,12 +40,29 @@ if(isset($_SESSION["id"])){//checking the existence of a session otherwise push 
 		<div class="col-md-12 store-manage" id="store_manage">
 
 				<ul>
-						<li>Filtrer :</li>
+						<li>Filtres :</li>
+
 						<li>
+							<label>Catégorie</label>
 							<select name='catgeory'>
-								<option value="Boisson">Boisson</option>
+								<option value="boisson">Boisson</option>
+								<option value="pattisserie">Pattisserie</option>
+								<option value="café">Café</option>
 						  </select>
 					  </li>
+
+						<li>
+							<label>Sous-Catégorie</label>
+							<select name='catgeory'>
+								<option value="boisson">jus</option>
+								<option value="pattisserie">Gaz</option>
+								<option value="café">Thé</option>
+							</select>
+						</li>
+
+						<li><button class="btn btn-default" type="button">Filtrer</button></li>
+
+						<li class="right"><a href='#' class='adding'>Ajouter un nouveau</a></li>
 				</ul>
 		</div>
 	</div>
