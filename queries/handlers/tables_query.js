@@ -2,7 +2,7 @@ function el(tar){// creating a custom element selector for the getElementByID me
      return document.getElementById(tar);
     }
 create = function(obj,op){// this is also a custom elements and text nodes creator to simplify our code.
-     switch (op){ 
+     switch (op){
 	      case 'ele' : return document.createElement(obj);break;
 	      case 'txt' : return document.createTextNode(obj);break;
 	    }
@@ -47,7 +47,7 @@ table_obj =function (tb_num,tb_id,tb_status){
 	this.num = tb_num;
 	this.id = tb_id;
 	this.status = tb_status;
-	
+
 	/*this.show_protocole = function(v){
 		show_table_state(Number(v));
 	}*/
@@ -65,7 +65,7 @@ function create_cafe_tables(){
 		var table_id = tables['tables'][i]['table_id'];
 		var table_status = tables['tables'][i]['status'];
 		var obj = new table_obj(table_number,table_id,table_status);
-		
+
 		//creaing the custom valid id for table assets;
 		var custom_table_id = "table_"+table_id;
 		// creating tables;
@@ -75,7 +75,7 @@ function create_cafe_tables(){
 		table.setAttribute('id',custom_table_id);
 		// binding the click event to each table to perform the show_table_state funcion;
 		table.onclick = show.bind(this, table_id);
-		//creating table content;		
+		//creating table content;
 		/* table title */
 		var title_ele = create('div','ele');
 		title_ele.setAttribute('class',table_title_class);
@@ -84,11 +84,11 @@ function create_cafe_tables(){
 		var status_ele = create('div','ele');
 		status_ele.setAttribute('class',table_status_class);
 		/* _________________*/
-		
+
 		// appending created elements;
 		el(custom_table_id).appendChild(title_ele);
 		el(custom_table_id).appendChild(status_ele);
-		
+
 		// creating the text nodes and appending them to their respective holders;
 		var title_txt = create(table_title_prefix+" "+table_number,'txt');
 		if(table_status == 0){
@@ -104,6 +104,5 @@ function create_cafe_tables(){
 }
 
 function show_table_state(tar){
-	alert(tar);
-}
 
+}
