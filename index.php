@@ -1,6 +1,6 @@
 <?php
-session_start();	
-if(isset($_SESSION["id"])){
+session_start();
+if(isset($_SESSION["id"])){//checking the existence of a session otherwise push back to login page
 	include('includes/head.php');
 ?>
 
@@ -27,23 +27,23 @@ if(isset($_SESSION["id"])){
 						</ul>
 					</li>
 				</ul>
-				
+
 			</div>
 		</nav>
-		
+
 		<div class="container" id="container">
 			<div class="row">
 				<div class="col-md-12" id="tables_container">
 				</div>
 			</div>
 		</div>
-	
+
 <?php
 	include('includes/foot.php');
 }
 
 else{
-	// redirect user to login page if he is not connected 
+	// redirect user to login page if he is not connected
 	$login_url = "https://moncafe.000webhostapp.com/login.php";
 	header("Location: ".$login_url);
 	die();
