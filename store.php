@@ -1,3 +1,4 @@
+<?php
 session_start();
 if(isset($_SESSION["id"])){//checking the existence of a session otherwise push back to login page
 	include('includes/head.php');
