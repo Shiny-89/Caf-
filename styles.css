@@ -25,7 +25,7 @@ body{
 	padding : 14px;
 	border : 1px solid #D35400;
 	border-radius: 15px 15px 15px 15px;
-	-webkit-border-radius: 15px 15px 15px 15px;	
+	-webkit-border-radius: 15px 15px 15px 15px;
 }
 
 .table_title{
@@ -45,4 +45,20 @@ body{
 	font-size:25px;
 	border-radius: 0px 0px 15px 15px;
 	-webkit-border-radius: 0px 0px 15px 15px;
+}
+
+
+/* store.php filter menu */
+
+.store-manage ul{
+	list-style-type : none;
+}
+
+.store-manage li{
+	float:left;
+	margin-right:30px;
+}
+
+.store-manage .right{
+	float:right;
 }
