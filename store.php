@@ -62,7 +62,7 @@ if(isset($_SESSION["id"])){//checking the existence of a session otherwise push 
 
 						<li><button class="btn btn-default" type="button">Filtrer</button></li>
 
-						<li class="right"><a href='#' class='adding'>Ajouter un nouveau</a></li>
+						<li class="right"><a href='javascript:adding_window();' class='adding'>Ajouter un nouveau</a></li>
 				</ul>
 		</div>
 	</div>
