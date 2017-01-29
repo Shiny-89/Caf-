@@ -45,7 +45,7 @@ function adding_window(){
   }
   else {
     el('layer').style.display ='block';
-    el('wind').style.display ='block';
+    el('new_prod').style.display ='block';
   }
 }
 
