@@ -51,5 +51,5 @@ function adding_window(){
 
 function cancel_add(){
   el('layer').style.display ='none';
-  el('wind').style.display ='none';
+  el('new_prod').style.display ='none';
 }
