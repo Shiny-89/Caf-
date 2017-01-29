@@ -22,10 +22,11 @@ echo "
 		<!--[if lt IE 9]><script src='../../assets/js/ie8-responsive-file-warning.js'></script><![endif]-->
 		<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'>
 		</script><script src='https://moncafe.000webhostapp.com/packages/js/jquery.min.js'></script>
+		<script src='https://moncafe.000webhostapp.com/packages/js/main.js'></script>
 		<?php include('plugins.php'); ?>
 		<style>
 		body{padding-top:70px;}
 		</style>
 	</head>
 	<body>";
-?>	
+?>
