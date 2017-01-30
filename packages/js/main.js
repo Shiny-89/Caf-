@@ -21,13 +21,13 @@ function adding_window(){
     wind += "<div>";
     wind += "<p> Ajouter un nouveau product</p>";
     wind += "<div class='form-group'><label for='name'>Nom : </label><input type='text' class='form-control' id='name'></div>";
-    wind += "<label class='radio control-label'>Type</label><div class='radio radio-inline'><label><input type='radio' name='type'>Consomable</label></div>";
-    wind += "<div class='radio radio-inline'><label><input type='radio' name='type'>Gros</label></div>";
+    wind += "<label class='radio control-label'>Type : </label><div class='radio radio-inline'><label><input type='radio' name='type' value='1'>Consomable</label></div><div class='radio radio-inline'><label><input type='radio' name='type' value='2'>Gros</label></div>";
+    wind += "<div class='form-group'><label class='select control-label'>Unité</label><select name='unit'><option value='kg'>KG</option><option value='lt'>Litre</option><option value='piece'>piece</option></select><input type='text' class='form-control' id='category' placeholder='Ou ajoutez une nouvelle catégorie'></div>";
     wind += "<label>Ajoutez une image du produit</label><label class='btn btn-default btn-file'>Image <input type='file' name='thumb' hidden></label>";
     wind += "<div class='form-group'><label for='price'>Prix d'achat : </label><input type='text' class='form-control' id='price'></div>";
     wind += "<div class='form-group'><label for='sell'>Prix de vente : </label><input type='text' class='form-control' id='sell'></div>";
-    wind += "<div class='form-group'><label for='category'>Category : </label><select id='catefories'><option value='categorie'>Categorie</option><select><input type='text' class='form-control' id='category' placeholder='Ou ajoutez une nouvelle catégorie'></div>";
-    wind += "<div class='form-group'><label for='sub-category'>Sous-Category : </label><select id='sub_catefories'><option value='ex-categorie'>Ex-Categorie</option><select><input type='text' class='form-control' id='category' placeholder='Ou ajoutez une nouvelle sous-catégorie'></div>";
+    wind += "<div class='form-group'><label for='category'>Category : </label><select id='catefories'><option value='categorie'>Categorie</option></select><input type='text' class='form-control' id='category' placeholder='Ou ajoutez une nouvelle catégorie'></div>";
+    wind += "<div class='form-group'><label for='sub-category'>Sous-Category : </label><select id='sub_catefories'><option value='ex-categorie'>Ex-Categorie</option></select><input type='text' class='form-control' id='category' placeholder='Ou ajoutez une nouvelle sous-catégorie'></div>";
     wind += "<button class='btn btn-default btn-danger' type='button' onclick='cancel_add();'>Annuler</button>";
     wind += "<button class='btn btn-default green btn-success' type='button' onclick='add_product();'>Ajouter</button>";
     wind += "</div></div>";
