@@ -25,7 +25,7 @@ body{
 	padding : 14px;
 	border : 1px solid #D35400;
 	border-radius: 15px 15px 15px 15px;
-	-webkit-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;	
 }
 
 .table_title{
@@ -45,83 +45,4 @@ body{
 	font-size:25px;
 	border-radius: 0px 0px 15px 15px;
 	-webkit-border-radius: 0px 0px 15px 15px;
-}
-
-/* store.php */
-/* store.php filter menu */
-
-.store-manage ul{
-	list-style-type : none;
-}
-
-.store-manage li{
-	float:left;
-	margin-right:30px;
-}
-
-.store-manage .right{
-	float:right;
-}
-
-
-/*store Adding product window and layer */
-
-div#new_prod {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 10001;
-    top: 0px;
-    left: 0px;
-    padding: 20px;
-}
-
-#new_prod > div {
-    width: 40%;
-    padding: 15px 40px;
-    background: white;
-    margin: 0px auto;
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border: 0px solid #000000;
-}
-
-div#layer {
-    background-color: rgba(0,0,0,0.8);
-    z-index: 10000;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-}
-
-#new_prod > div > p {
-	font-weight : 800;
-	font-size : 25px;
-	text-decoration : underline;
-}
-
-#new_prod label {
-	font-size : 16px;
-	font-weight : normal;
-	color : #383838;
-	margin-right :8px;
-}
-
-#new_prod .form-group .form-control{
-	display:inline;
-	width:auto;
-	margin-left : 8px;
-}
-
-
-.btn{
-	padding:10px 20px;
-	font-size: 16px;
-}
-
-.green{
-	float:right;
 }
