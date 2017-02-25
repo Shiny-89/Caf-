@@ -195,5 +195,5 @@ $('#sub_button').on('click', function() {
             }
             return myXhr;
         },
-    }).done(function(){alert('produit ajouter')});
+    }).done(function(){alert('produit ajouter');cancel_add();});
 });

@@ -21,7 +21,10 @@ echo "
 		<link href='styles.css' rel='stylesheet'>
 		<!--[if lt IE 9]><script src='../../assets/js/ie8-responsive-file-warning.js'></script><![endif]-->
 		<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'>
-		</script><script src='https://moncafe.000webhostapp.com/packages/js/jquery.min.js'></script>
+		</script><script
+  src='https://code.jquery.com/jquery-2.2.4.min.js'
+  integrity='sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44='
+  crossorigin='anonymous'></script>
 		<script src='https://moncafe.000webhostapp.com/packages/js/main.js'></script>
 		<?php include('plugins.php'); ?>
 		<style>
